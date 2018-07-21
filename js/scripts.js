@@ -11,5 +11,11 @@ vid.addEventListener('timeupdate', () => {
   }
 });
 
+for (let i = 12; i < spans.length; i++) {
+  spans[i].addEventListener('click', () => {
+    vid.currentTime = spans[i].dataset.start;  
+  });
+};
+
  
  
