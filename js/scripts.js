@@ -6,7 +6,7 @@ vid.addEventListener('timeupdate', () => {
     if (vid.currentTime >= spans[i].dataset.start && vid.currentTime <= spans[i].dataset.end) {
       spans[i].style.backgroundColor = "yellow";
     } else {
-      spans[i].style.backgroundColor = "none";
+      spans[i].style.backgroundColor = "white";
     }
   }
 });
